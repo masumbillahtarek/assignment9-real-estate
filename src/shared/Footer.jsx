@@ -4,7 +4,7 @@ import { PiBuildingApartmentFill } from "react-icons/pi";
 const Footer = () => {
     return (
  <div>
-     <footer className="footer bg-base-300 text-base-content p-10 flex justify-around">
+     <footer className="footer bg-base-300 text-base-content  grid grid-cols-1 px-40 py-10 md:flex justify-around md:p-12">
   <aside>
    <div className="flex flex-col gap-2 items-center mt-4">
      <PiBuildingApartmentFill className="text-5xl mb-4 text-secondary"/>

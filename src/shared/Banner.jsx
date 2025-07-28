@@ -45,9 +45,9 @@ const Banner = () => {
   </div>
 </div>
  
-    <div className='absolute left-36 top-0 bg-[#06060654] w-3/4 px-4 h-[550px] '>
- <h2 className='text-6xl text-[#fff] font-bold text-center my-4 mt-48'>Find your dream home</h2>
- <p className='text-2xl text-[#fff] text-center mx-auto w-3/4'>We are recognized for exceeding client expectations and delivering great results through dedication, ease of process, and extraordinary services to our worldwide clients.</p>
+    <div className='absolute left-12 md:left-28 lg:left-36 top-0 bg-[#06060654] w-3/4 px-4 h-[550px] '>
+ <h2 className='text-3xl md:text-6xl text-[#fff] font-bold text-center my-4 mt-48'>Find your dream home</h2>
+ <p className='text-lg md:text-2xl text-[#fff] text-center mx-auto w-3/4'>We are recognized for exceeding client expectations and delivering great results through dedication, ease of process, and extraordinary services to our worldwide clients.</p>
     </div>
   </div>
     );

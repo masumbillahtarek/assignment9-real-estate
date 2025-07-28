@@ -27,12 +27,12 @@ const totalPages=Math.ceil(estates.length/itemsPerPage)
 
                 </p>
             </div>
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {
                 currentItems.map(estate=><Estates estate={estate}></Estates>)
             }
         </div>
-     <div className="w-3/4 mx-auto flex justify-around font-bold my-4">
+     <div className="w-3/4 mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 font-bold my-4">
            <p className="text-xl text-primary border-primary border-2 rounded-xl px-4 py-2">Total Pages : {totalPages}</p>
          <span className="text-xl text-primary border-primary border-2 rounded-xl px-4 py-2">Current Page : {currentPage}</span>
         <button disabled={currentPage===1} className="bg-primary px-4 py-2 rounded-xl border-2 btn-secondary text-white" onClick={()=>setCurrentPage(currentPage-1)}>Previous Page</button>

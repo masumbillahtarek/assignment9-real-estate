@@ -44,9 +44,9 @@ console.log(error)
        {navLink}
       </ul>
     </div>
-  <div className="flex gap-2 items-center">
-    <PiBuildingApartmentFill className="text-5xl"/>
-      <a className="btn btn-ghost text-3xl font-bold">Residential Estate</a>
+  <div className=" flex gap-2 items-center ">
+    <PiBuildingApartmentFill className="text-5xl hidden md:block"/>
+      <a className="btn btn-ghost text-3xl font-bold hidden md:block">Residential Estate</a>
   </div>
   </div>
   <div className="navbar-center hidden lg:flex">
